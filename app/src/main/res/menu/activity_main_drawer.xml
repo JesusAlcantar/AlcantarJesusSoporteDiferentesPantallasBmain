@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todos"
+            android:icon="@drawable/ic_baseline_bookmark_24"
+            android:title="Todos los generos" />
+        <item
+            android:id="@+id/nav_poema_epico"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Poema epico" />
+        <item
+            android:id="@+id/nav_XIX"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Literatura siglo XIX" />
+        <item
+            android:id="@+id/nav_Suspenso"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="suspenso" />
+    </group>
+    <item
+        android:title="Acciones Adicionales">
+
+        <menu>
+            <item android:id="@+id/nav_visitado"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Ultimo Visto"
+                />
+            <item android:id="@+id/nav_Compartir"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Compartir"
+                />
+        </menu>
+
+
+
+    </item>
+</menu>
